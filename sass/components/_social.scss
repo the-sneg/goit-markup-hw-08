@@ -1,0 +1,34 @@
+// .social__icon {
+//   fill: currentColor;
+// }
+
+// .social {
+//   display: flex;
+// }
+
+// .social__item {
+//   margin-right: 10px;
+
+//   &:last-child {
+//     margin-right: 0;
+//   }
+// }
+
+// .social__link {
+//   color: var(--first-icons-color);
+//   width: 44px;
+//   height: 44px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   border-radius: 50%;
+//   transition-duration: 250ms;
+//   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//   transition-property: background-color, color;
+
+//   &:hover,
+//   &:focus {
+//     background-color: var(--accent-color);
+//     color: var(--icons-white-color);
+//   }
+// }
