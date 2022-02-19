@@ -18,6 +18,7 @@
   text-transform: uppercase;
   color: var(--title-text-color);
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .features__list {
@@ -29,19 +30,20 @@
 }
 
 .features__item {
+  margin-bottom: 30px;
+
   @media screen and (min-width: 768px) {
     width: 354px;
     height: 251px;
     margin-right: 30px;
-    margin-bottom: 30px;
-  }
 
-  &:nth-child(2n) {
-    margin-right: 0;
-  }
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
 
-  &:nth-last-child(-n + 2) {
-    margin-bottom: 0;
+    &:nth-last-child(-n + 2) {
+      margin-bottom: 0;
+    }
   }
 
   //   margin-right: 30px;
