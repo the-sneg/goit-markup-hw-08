@@ -10,8 +10,8 @@ header {
 .site-nav {
   //   display: flex;
   //   align-items: center;
-  margin-right: auto;
-  margin-bottom: 302px;
+  // margin-right: auto;
+  // margin-bottom: 302px;
 }
 
 .menu {
@@ -72,6 +72,13 @@ header {
   &:not(:last-child) {
     margin-bottom: 32px;
   }
+}
+
+.menu-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .menu-container {
