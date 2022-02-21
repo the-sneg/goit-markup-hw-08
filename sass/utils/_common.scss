@@ -18,9 +18,10 @@
   }
 }
 
-// .container--header {
-//   display: flex;
-// }
+.container--header {
+  display: flex;
+  min-height: 60px;
+}
 
 // .container--footer {
 //   display: flex;
