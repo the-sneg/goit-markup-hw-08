@@ -25,15 +25,15 @@
   }
 
   margin-bottom: 30px;
-  margin-right: 30px;
+  // margin-right: 30px;
 
-  &:nth-child(2n) {
-    margin-right: 0;
-  }
+  // &:nth-child(2n) {
+  //   margin-right: 0;
+  // }
 
-  &:nth-last-child(-n + 2) {
-    margin-bottom: 0;
-  }
+  // &:nth-last-child(-n + 2) {
+  //   margin-bottom: 0;
+  // }
 }
 
 .team__card-title {
