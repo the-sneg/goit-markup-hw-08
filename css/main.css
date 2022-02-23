@@ -632,8 +632,14 @@ header {
   font-size: 34px;
   line-height: 1.17;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--accent-color);
   margin-bottom: 32px;
+}
+
+@media screen and (max-width: 480px) {
+  .contacts__link--mobile-phone {
+    font-size: 9vw;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -657,10 +663,8 @@ header {
 }
 
 .contacts__link {
-  color: var(--second-icons-color);
   font-weight: 500;
   line-height: 1.2;
-  color: var(--primary-text-color);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -682,6 +686,7 @@ header {
 @media screen and (min-width: 768px) {
   .contacts__link {
     font-size: 12px;
+    color: var(--second-icons-color);
   }
 }
 
