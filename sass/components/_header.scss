@@ -96,6 +96,7 @@ header {
 
   &.is-open {
     display: block;
+    z-index: 1;
   }
 }
 
