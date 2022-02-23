@@ -9,6 +9,10 @@
 }
 
 .clients__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
   @media screen and (min-width: 480px) {
     display: flex;
     flex-wrap: wrap;
@@ -20,8 +24,6 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-
-  //   display: flex;
 }
 
 .clients__link {
@@ -45,21 +47,18 @@
 }
 
 .clients__lable {
-  margin-right: 30px;
+  margin-bottom: 30px;
 
   @media screen and (min-width: 480px) {
     margin-bottom: 30px;
-    &:nth-child(2n) {
-      margin-right: 0;
+
+    &:nth-child(odd) {
+      margin-right: 30px;
     }
 
     &:nth-last-child(-n + 2) {
       margin-bottom: 0;
     }
-  }
-
-  &:last-child {
-    margin-right: 0;
   }
 
   @media screen and (min-width: 768px) {
