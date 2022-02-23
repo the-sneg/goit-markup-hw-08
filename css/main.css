@@ -1418,6 +1418,15 @@ header {
   margin-bottom: 40px;
 }
 
+@media screen and (min-width: 768px) {
+  .filters {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+
 .filter__button {
   cursor: pointer;
   background-color: var(--secondary-bg-color);
