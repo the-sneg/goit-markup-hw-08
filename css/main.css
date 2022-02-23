@@ -763,7 +763,12 @@ header {
   text-transform: uppercase;
   color: var(--title-text-color);
   margin-bottom: 10px;
-  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .features__lable-title {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 768px) {
