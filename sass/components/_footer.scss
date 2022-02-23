@@ -7,6 +7,9 @@
 
 .address__wrap {
   margin-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    margin-right: auto;
+  }
 }
 
 .address__text {
@@ -72,6 +75,9 @@
 .subscribe__form {
   display: flex;
   flex-wrap: wrap;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
 }
 
 .subscribe__input {
@@ -114,4 +120,7 @@
 
 .footer-tablet {
   display: flex;
+  padding-right: 89px;
+  padding-left: 76px;
+  align-items: baseline;
 }

@@ -1014,6 +1014,12 @@ header {
   margin-bottom: 60px;
 }
 
+@media screen and (min-width: 768px) {
+  .address__wrap {
+    margin-right: auto;
+  }
+}
+
 .address__text {
   font-style: normal;
   font-size: 14px;
@@ -1087,6 +1093,12 @@ header {
       flex-wrap: wrap;
 }
 
+@media screen and (min-width: 768px) {
+  .subscribe__form {
+    display: block;
+  }
+}
+
 .subscribe__input {
   height: 50px;
   width: 450px;
@@ -1135,6 +1147,11 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-right: 89px;
+  padding-left: 76px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .backdrop {
