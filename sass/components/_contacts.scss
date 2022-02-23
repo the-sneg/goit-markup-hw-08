@@ -64,9 +64,6 @@
 }
 
 .contacts__link {
-  @media screen and (min-width: 768px) {
-    font-size: 12px;
-  }
   color: var(--second-icons-color);
   font-weight: 500;
   line-height: 1.2;
@@ -82,5 +79,12 @@
   &:focus,
   &:hover {
     color: var(--accent-color);
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 12px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
   }
 }
