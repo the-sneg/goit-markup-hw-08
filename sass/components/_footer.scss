@@ -6,7 +6,10 @@
 }
 
 .address__wrap {
-  margin-bottom: 60px;
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
+
   @media screen and (min-width: 768px) {
     margin-right: auto;
   }
@@ -48,7 +51,9 @@
 }
 
 .join {
-  margin-bottom: 60px;
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
 }
 
 .social__link--footer {
@@ -119,8 +124,11 @@
 }
 
 .footer-tablet {
-  display: flex;
-  padding-right: 89px;
-  padding-left: 76px;
-  align-items: baseline;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    padding-right: 89px;
+    padding-left: 76px;
+    align-items: baseline;
+    margin-bottom: 60px;
+  }
 }
