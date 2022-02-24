@@ -8,6 +8,10 @@
   text-align: center;
   color: var(--title-text-color);
   margin-bottom: 30px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+  }
 }
 
 .team__list {
@@ -15,8 +19,6 @@
     display: flex;
     flex-wrap: wrap;
   }
-
-  //   display: flex;
 }
 
 .team__card {

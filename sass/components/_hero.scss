@@ -63,6 +63,10 @@
   text-transform: uppercase;
   color: var(--white-color);
   margin-bottom: 30px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 44px;
+  }
 }
 
 .hero__button {

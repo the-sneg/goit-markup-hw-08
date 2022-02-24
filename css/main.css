@@ -239,6 +239,13 @@ img {
   padding-bottom: 60px;
 }
 
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
 .logo {
   color: var(--accent-color);
   font-family: 'Raleway', sans-serif;
@@ -551,6 +558,19 @@ header {
   border: none;
 }
 
+.menu-icon {
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-property: fill;
+  transition-property: fill;
+}
+
+.menu-icon:focus, .menu-icon:hover {
+  fill: var(--accent-color);
+}
+
 .burger-icon {
   display: block;
 }
@@ -636,7 +656,7 @@ header {
   margin-bottom: 32px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479px) {
   .contacts__link--mobile-phone {
     font-size: 9vw;
   }
@@ -761,6 +781,12 @@ header {
   text-transform: uppercase;
   color: var(--white-color);
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .hero__title {
+    font-size: 44px;
+  }
 }
 
 .hero__button {
@@ -950,6 +976,12 @@ header {
   margin-bottom: 30px;
 }
 
+@media screen and (min-width: 1200px) {
+  .team__title {
+    font-size: 36px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .team__list {
     display: -webkit-box;
@@ -1020,6 +1052,12 @@ header {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .clients__title {
+    font-size: 36px;
+  }
 }
 
 .clients__list {
