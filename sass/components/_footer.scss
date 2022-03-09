@@ -54,12 +54,6 @@
   margin-bottom: 20px;
 }
 
-.join {
-  @media screen and (max-width: 767px) {
-    margin-bottom: 60px;
-  }
-}
-
 .social__link--footer {
   color: var(--icons-white-color);
   background-color: rgba(255, 255, 255, 0.1);
@@ -145,5 +139,9 @@
   @media screen and (min-width: 1200px) {
     padding: 0;
     margin: 0;
+  }
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
   }
 }

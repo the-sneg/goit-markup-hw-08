@@ -67,6 +67,10 @@
   @media screen and (min-width: 1200px) {
     font-size: 44px;
   }
+
+  @media screen and (max-width: 479px) {
+    font-size: 21px;
+  }
 }
 
 .hero__button {

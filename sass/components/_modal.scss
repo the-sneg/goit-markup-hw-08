@@ -162,6 +162,7 @@
 }
 
 .modal__agreement {
+  align-items: center;
   display: flex;
   margin-bottom: 30px;
   font-size: 12px;
@@ -195,4 +196,8 @@
   &:focus {
     background-color: var(--second-accent-color);
   }
+}
+
+.agreement-wrap {
+  letter-spacing: 0.03em;
 }
