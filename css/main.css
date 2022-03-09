@@ -1805,7 +1805,6 @@ header {
   position: absolute;
   -webkit-transform: translateY(101%);
           transform: translateY(101%);
-  overflow-y: scroll;
   height: 100%;
   width: 100%;
   font-size: 18px;
@@ -1828,5 +1827,11 @@ header {
 .example__link:focus .example__overlay-text {
   -webkit-transform: translateY(0);
           transform: translateY(0);
+}
+
+@media screen and (max-width: 479px) {
+  .example__overlay-text {
+    overflow-y: scroll;
+  }
 }
 /*# sourceMappingURL=main.css.map */
