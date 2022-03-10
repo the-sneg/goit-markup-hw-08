@@ -25,6 +25,11 @@
   @media screen and (min-width: 480px) {
     width: 450px;
   }
+
+  @media screen and (min-width: 1200px) {
+    width: 528px;
+    height: 581px;
+  }
 }
 
 .modal__close-btn {
@@ -162,10 +167,15 @@
 }
 
 .modal__agreement {
+  justify-content: center;
   align-items: center;
   display: flex;
   margin-bottom: 30px;
   font-size: 12px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+  }
 }
 
 .modal__agreement-link {
